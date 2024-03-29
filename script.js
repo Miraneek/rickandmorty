@@ -7,7 +7,7 @@ async function getData(apiLink) {
     return null;
 }
 
-
+//merge request test 2
 let currentLink = "https://rickandmortyapi.com/api/character";
 let selection = "All"
 document.querySelector("#select").addEventListener("change", () => {
