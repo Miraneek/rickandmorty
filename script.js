@@ -7,7 +7,7 @@ async function getData(apiLink) {
     return null;
 }
 
-
+//testing merge requests
 let currentLink = "https://rickandmortyapi.com/api/character";
 let selection = "All"
 document.querySelector("#select").addEventListener("change", () => {
@@ -28,7 +28,7 @@ async function loadData() {
         card.appendChild(img)
 
         const name = document.createElement("h2")
-        name.textContent = item.name + " " + item.species
+        name.textContent = item.name + " - " + item.species
         const middle = document.createElement("p")
         middle.appendChild(name)
         card.appendChild(middle)
